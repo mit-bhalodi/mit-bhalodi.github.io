@@ -1,0 +1,93 @@
+.img {
+    width: 150px;
+    height: auto;
+    margin: 20px;
+}
+
+.line {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.punch-line {
+    font-size: 100%;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+.mount-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-blend-mode: color-burn;
+  }
+
+/* .frame {
+    border: 2px solid black;
+    border-radius: 30px;
+} */
+
+.mail-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.my-img {
+    display: block;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0.15em solid black;
+    border-radius: 100%;
+}
+
+.poster {
+    width: 40%;
+    margin: auto;
+}
+
+.carousel-control-prev {
+    left: 7em;
+}
+.carousel-control-next {
+    right: 7em;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+@media (max-width : 985px) {
+
+    .mount-img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .my-img {
+        width: 30%;
+    }
+
+    .my-title {
+        width: 70%;
+    }
+
+}

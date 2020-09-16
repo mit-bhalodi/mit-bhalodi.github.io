@@ -9,7 +9,6 @@
     margin-bottom: 30px;
 }
 
-
 .social {
     width: 100px;
 }
@@ -21,7 +20,7 @@
     width: 50%;
     margin-top: 80px;
     margin-bottom: 20px;
-  }
+}
 
 .mount-img {
     display: block;
@@ -31,7 +30,7 @@
     margin-top: 100px;
     margin-bottom: 100px;
     background-blend-mode: color-burn;
-  }
+}
 
 .mail-logo {
     display: block;
@@ -61,6 +60,7 @@
 .carousel-control-prev {
     left: 6em;
 }
+
 .carousel-control-next {
     right: 6em;
 }
@@ -75,55 +75,46 @@
     flex-wrap: wrap;
     padding: 0 4px;
     margin: 0 3em;
-  }
+}
 
-  .cols {
+.cols {
     flex: 20%;
     max-width: 20%;
     padding: 0 4px;
-  }
+}
 
-@media screen and (max-width : 900px) {
-
+@media screen and (max-width: 900px) {
     .mount-img {
         width: 100%;
         margin: auto;
     }
-
     .my-img {
         width: 30%;
     }
-
     .my-title {
         width: 70%;
         margin-top: 50px;
     }
-
     .img {
         width: 100px;
     }
-
     .poster {
         width: 60%;
         margin: auto;
     }
-
     .punch-line {
         font-size: 80%;
     }
-
     .poster {
-    width: 60%;
-    margin: auto;
+        width: 60%;
+        margin: auto;
     }
-
     .carousel-control-prev {
         left: 2em;
     }
     .carousel-control-next {
         right: 2em;
     }
-
     .mail-logo {
         display: block;
         margin-left: auto;
@@ -132,24 +123,21 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
-
     .media-1 {
         font-size: 1rem;
     }
-
     .social {
         width: 60px;
     }
-
     .cols {
         flex: 75%;
         max-width: 25%;
-      }
+    }
 }
 
-@media screen and (max-width : 600px) {
+@media screen and (max-width: 600px) {
     .cols {
         flex: 50%;
         max-width: 50%;
-      }   
+    }
 }

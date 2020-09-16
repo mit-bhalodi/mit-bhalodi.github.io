@@ -9,9 +9,6 @@
     margin-bottom: 30px;
 }
 
-.punch-line {
-    font-size: 80%;
-}
 
 .social {
     width: 100px;
@@ -95,6 +92,10 @@
     .poster {
         width: 60%;
         margin: auto;
+    }
+
+    .punch-line {
+        font-size: 80%;
     }
 
     .poster {

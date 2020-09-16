@@ -10,8 +10,7 @@
 }
 
 .punch-line {
-    font-size: 100%;
-    
+    font-size: 80%;
 }
 
 .center {
@@ -32,11 +31,6 @@
     margin-bottom: 100px;
     background-blend-mode: color-burn;
   }
-
-/* .frame {
-    border: 2px solid black;
-    border-radius: 30px;
-} */
 
 .mail-logo {
     display: block;
@@ -64,10 +58,10 @@
 }
 
 .carousel-control-prev {
-    left: 7em;
+    left: 6em;
 }
 .carousel-control-next {
-    right: 7em;
+    right: 6em;
 }
 
 .carousel-control-next,
@@ -88,6 +82,27 @@
 
     .my-title {
         width: 70%;
+    }
+
+    .img {
+        width: 100px;
+    }
+
+    .poster {
+        width: 60%;
+        margin: auto;
+    }
+
+    .poster {
+    width: 60%;
+    margin: auto;
+    }
+
+    .carousel-control-prev {
+        left: 2em;
+    }
+    .carousel-control-next {
+        right: 2em;
     }
 
 }

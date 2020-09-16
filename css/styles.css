@@ -70,7 +70,20 @@
     filter: invert(100%);
 }
 
-@media (max-width : 985px) {
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin: 0 3em;
+  }
+
+  .cols {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+  }
+
+@media screen and (max-width : 900px) {
 
     .mount-img {
         width: 100%;
@@ -83,6 +96,7 @@
 
     .my-title {
         width: 70%;
+        margin-top: 50px;
     }
 
     .img {
@@ -127,8 +141,15 @@
         width: 60px;
     }
 
-    .col {
-        padding: 0;
-    }
+    .cols {
+        flex: 75%;
+        max-width: 25%;
+      }
+}
 
+@media screen and (max-width : 600px) {
+    .cols {
+        flex: 50%;
+        max-width: 50%;
+      }   
 }

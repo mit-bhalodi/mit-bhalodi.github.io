@@ -1,0 +1,6 @@
+body {
+    margin: 0;
+    /* background: url(https://static.canva.com/static/images/bg_tiles.jpg) no-repeat; */
+    background: url(sample_blurred.png) no-repeat;
+    background-size: cover;
+}
